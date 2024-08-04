@@ -1,0 +1,152 @@
+/* Importing Google Font */
+@import url(https://fonts.googleapis.com/css?family=Squada+One);
+
+body {
+  background: hsl(0, 0%, 100%);
+}
+
+.logo {
+  text-align: center;
+  text-shadow: 
+    1px 1px 0px #7cedc5,
+    2px 2px 0px #7cedc5,
+    3px 3px 0px #7cedc5,
+    4px 4px 0px #7cedc5,
+    5px 5px 0px #7cedc5,
+    6px 6px 0px #7cedc5,
+    7px 7px 0px #7cedc5,
+    8px 8px 0px #7cedc5,
+    9px 9px 0px #7cedc5,
+    10px 10px 0px #7cedc5,
+    11px 11px 0px #7cedc5,
+    12px 12px 0px #7cedc5,
+    13px 13px 0px #7cedc5,
+    14px 14px 0px #7cedc5,
+    15px 15px 0px #7cedc5,
+    16px 16px 0px #7cedc5,
+    17px 17px 0px #7cedc5,
+    18px 18px 0px #7cedc5,
+    19px 19px 0px #7cedc5,
+    20px 20px 0px #7cedc5,
+    21px 21px 0px #7cedc5,
+    22px 22px 0px #7cedc5,
+    23px 23px 0px #7cedc5,
+    24px 24px 0px #7cedc5,
+    25px 25px 0px #7cedc5,
+    26px 26px 0px #7cedc5,
+    27px 27px 0px #7cedc5,
+    28px 28px 0px #7cedc5,
+    29px 29px 0px #7cedc5,
+    30px 30px 0px #7cedc5;
+  
+  margin-top: 0.5em;
+  font-size: 8em;
+  font-family: 'Squada One', cursive;
+  color: #ffffff;
+}
+
+.search {
+  position: relative;
+  z-index: 10;
+  text-align: center;
+}
+
+.search input[type="text"] {
+  width: 400px;
+  padding: 5px;
+  font-size: 1.3em;
+  margin: 1em auto 0px;
+  display: block;
+  box-shadow: 
+    1px 1px 0px #7cedc5,
+    2px 2px 0px #7cedc5,
+    3px 3px 0px #7cedc5,
+    4px 4px 0px #7cedc5,
+    5px 5px 0px #7cedc5,
+    6px 6px 0px #7cedc5,
+    7px 7px 0px #7cedc5,
+    8px 8px 0px #7cedc5,
+    9px 9px 0px #7cedc5,
+    10px 10px 0px #7cedc5,
+    11px 11px 0px #7cedc5,
+    12px 12px 0px #7cedc5,
+    13px 13px 0px #7cedc5,
+    14px 14px 0px #7cedc5,
+    15px 15px 0px #7cedc5,
+    16px 16px 0px #7cedc5,
+    17px 17px 0px #7cedc5,
+    18px 18px 0px #7cedc5,
+    19px 19px 0px #7cedc5,
+    20px 20px 0px #7cedc5,
+    21px 21px 0px #7cedc5,
+    22px 22px 0px #7cedc5,
+    23px 23px 0px #7cedc5,
+    24px 24px 0px #7cedc5,
+    25px 25px 0px #7cedc5,
+    26px 26px 0px #7cedc5,
+    27px 27px 0px #7cedc5,
+    28px 28px 0px #7cedc5,
+    29px 29px 0px #7cedc5,
+    30px 30px 0px #7cedc5;
+  border: 3px solid #7cedc5;
+  outline: 0;
+}
+
+.search input[type="text"]:focus {
+  border: 3px solid #97f2dc;
+}
+
+.search button {
+  background: #97f2dc;
+  border: 3px solid #7cedc5;
+  font-size: 1.5em;
+  font-family: 'Squada One', cursive;
+  color: #ffffff;
+  box-shadow: 
+    1px 1px 0px #7cedc5,
+    2px 2px 0px #7cedc5,
+    3px 3px 0px #7cedc5,
+    4px 4px 0px #7cedc5,
+    5px 5px 0px #7cedc5,
+    6px 6px 0px #7cedc5,
+    7px 7px 0px #7cedc5,
+    8px 8px 0px #7cedc5,
+    9px 9px 0px #7cedc5,
+    10px 10px 0px #7cedc5,
+    11px 11px 0px #7cedc5,
+    12px 12px 0px #7cedc5,
+    13px 13px 0px #7cedc5,
+    14px 14px 0px #7cedc5,
+    15px 15px 0px #7cedc5,
+    16px 16px 0px #7cedc5,
+    17px 17px 0px #7cedc5,
+    18px 18px 0px #7cedc5,
+    19px 19px 0px #7cedc5,
+    20px 20px 0px #7cedc5,
+    21px 21px 0px #7cedc5,
+    22px 22px 0px #7cedc5,
+    23px 23px 0px #7cedc5,
+    24px 24px 0px #7cedc5,
+    25px 25px 0px #7cedc5,
+    26px 26px 0px #7cedc5,
+    27px 27px 0px #7cedc5,
+    28px 28px 0px #7cedc5,
+    29px 29px 0px #7cedc5,
+    30px 30px 0px #7cedc5;
+  cursor: pointer;
+  display: inline-block;
+  margin: 3px 5px;
+}
+
+.search button:active {
+  margin: 8px 5px;
+}
+
+.search .button {
+  margin: 0.5em auto;
+  width: 16%;
+}
+
+.search .button button {
+  float: left;
+}
