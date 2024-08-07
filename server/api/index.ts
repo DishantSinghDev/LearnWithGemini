@@ -1,5 +1,6 @@
 
 export const generateText = async (prompt: string, apiKey: string) => {
+    console.log("api",prompt, apiKey)
     try {
         const response = await fetch("https://gemini-server.dishantsingh.me/", {
             method: "POST",
