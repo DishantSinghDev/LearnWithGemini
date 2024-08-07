@@ -1,6 +1,6 @@
 import { Dispatch, SetStateAction, useState, useEffect } from "react";
 import Modal from "../shared/modal";
-import { LoadingDots, LoadingSpinner } from "../shared/icons";
+import { LoadingDots } from "../shared/icons";
 import { generateText } from "@/server/api";
 import { X } from "lucide-react";
 import React from "react";
@@ -142,7 +142,7 @@ Please return the response in Markdown only without any issues.
 
                     <div className="flex flex-col justify-center items-center text-center">
                         <h3 className="text-2xl font-bold font-display">{topic} - {course}</h3>
-                        {loading && <LoadingSpinner />}
+                        {loading && <LoadingDots className="dark:bg-white dark:text-white"/>}
                         {error && <p className="text-red-500">{error}</p>}
                     </div>
                     {!loading && !error && (
