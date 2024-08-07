@@ -137,7 +137,7 @@ Please return the response in Markdown only without any issues.
 
     return (
         <Modal showModal={showTutorialModal} setShowModal={setShowTutorialModal}>
-            <div className="overflow-y-scroll mrkdown overflow-x-visible w-full shadow-xl max-h-[100vh] md:max-w-lg md:rounded-2xl md:border md:border-gray-200">
+            <div className="overflow-y-scroll mrkdown overflow-x-visible w-full shadow-xl max-h-[100vh] md:max-w-lg md:rounded-2xl md:border md:border-gray-200 dark:md:border-gray-800">
                 <div className=" bg-white border-b border-gray-200 dark:bg-gray-800 md:px-16 px-4 py-6 pt-8 space-y-3 ">
 
                     <div className="flex flex-col justify-center items-center text-center">

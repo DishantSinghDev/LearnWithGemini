@@ -28,7 +28,7 @@ export default function AddAPI() {
     };
     const { setShowCustomModal, CustomModal } = useCustomModal({
         children: <>
-            <div className="overflow-hidden w-full shadow-xl md:max-w-md md:rounded-2xl md:border md:border-gray-200 dark:bg-gray-800">
+            <div className="overflow-hidden w-full shadow-xl md:max-w-md md:rounded-2xl md:border md:border-gray-200 dark:bg-gray-800 dark:md:border-gray-800">
                 <div className="flex flex-col px-4 py-6 pt-8 space-y-3 bg-white border-b border-gray-200 md:px-16 dark:bg-gray-800">
                     <h3 className="text-2xl w-full text-center font-bold font-display">API Key Manager</h3>
                     <form className="" onSubmit={handleSaveApiKey}>
