@@ -28,13 +28,13 @@ export default function AddAPI() {
     };
     const { setShowCustomModal, CustomModal } = useCustomModal({
         children: <>
-            <div className="overflow-hidden w-full shadow-xl md:max-w-md md:rounded-2xl md:border md:border-gray-200">
-                <div className="flex flex-col px-4 py-6 pt-8 space-y-3 bg-white border-b border-gray-200 md:px-16">
+            <div className="overflow-hidden w-full shadow-xl md:max-w-md md:rounded-2xl md:border md:border-gray-200 dark:bg-gray-800">
+                <div className="flex flex-col px-4 py-6 pt-8 space-y-3 bg-white border-b border-gray-200 md:px-16 dark:bg-gray-800">
                     <h3 className="text-2xl w-full text-center font-bold font-display">API Key Manager</h3>
                     <form className="" onSubmit={handleSaveApiKey}>
                             <div className="mb-5">
                                 <label htmlFor="apiKey" className="block mb-2 text-sm font-medium text-gray-900 dark:text-white">Your API Key</label>
-                                <input type="text" id="apiKey" name="apiKey" className="bg-gray-50 border border-gray-300 text-gray-900 text-sm rounded-lg focus:ring-blue-500 focus:border-blue-500 block w-full p-2.5 dark:bg-gray-700 dark:border-gray-600 dark:placeholder-gray-400 dark:text-white dark:focus:ring-blue-500 dark:focus:border-blue-500" placeholder="AIzaTyBPacf_vOaWjyI6EwjR1f_MVwKz-1PuTBo" required />
+                                <input type="text" id="apiKey" name="apiKey" className="bg-gray-50 border border-gray-300 text-gray-900 text-sm rounded-lg focus:ring-blue-500 focus:border-blue-500 block w-full p-2.5 dark:bg-gray-700 dark:border-gray-600 dark:placeholder-gray-400 dark:text-white dark:focus:ring-blue-500 dark:focus:border-blue-500" placeholder="AIzaSyBEacf_vOaWjyI6EwjR1f_MVwKz-6PuTBo" required />
                             </div>
                             <button type="submit" className="text-white bg-blue-700 hover:bg-blue-800 focus:ring-4 focus:outline-none focus:ring-blue-300 font-medium rounded-lg text-sm w-full sm:w-auto px-5 py-2.5 text-center dark:bg-blue-600 dark:hover:bg-blue-700 dark:focus:ring-blue-800">
                                 Submit

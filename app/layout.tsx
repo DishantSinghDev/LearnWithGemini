@@ -5,8 +5,8 @@ import "./globals.css";
 const inter = Inter({ subsets: ["latin"] });
 
 export const metadata: Metadata = {
-  title: "Learn with Gemini",
-  description: "Generates animated videos for learning with Gemini API",
+  title: "Learn with Gemini | Dishant Singh",
+  description: "Generates animated videos and content for learning with Gemini API",
 };
 
 export default function RootLayout({

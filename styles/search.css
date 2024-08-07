@@ -43,6 +43,7 @@ body {
   font-size: 8em;
   font-family: 'Squada One', cursive;
   color: #ffffff;
+  line-height: normal;
 }
 
 .search {

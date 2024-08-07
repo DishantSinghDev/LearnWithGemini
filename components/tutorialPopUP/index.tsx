@@ -138,7 +138,7 @@ Please return the response in Markdown only without any issues.
     return (
         <Modal showModal={showTutorialModal} setShowModal={setShowTutorialModal}>
             <div className="overflow-y-scroll mrkdown overflow-x-visible w-full shadow-xl max-h-[100vh] md:max-w-lg md:rounded-2xl md:border md:border-gray-200">
-                <div className=" bg-white border-b border-gray-200 md:px-16 px-4 py-6 pt-8 space-y-3 ">
+                <div className=" bg-white border-b border-gray-200 dark:bg-gray-800 md:px-16 px-4 py-6 pt-8 space-y-3 ">
 
                     <div className="flex flex-col justify-center items-center text-center">
                         <h3 className="text-2xl font-bold font-display">{topic} - {course}</h3>
@@ -151,7 +151,7 @@ Please return the response in Markdown only without any issues.
                     <button
                         onClick={() => setShowTutorialModal(false)}
                         type="button"
-                        className="text-gray-900 bg-white border border-gray-300 focus:outline-none hover:bg-gray-100 focus:ring-4 focus:ring-gray-100 font-medium rounded-full text-sm px-5 py-2.5 me-2 mb-2 dark:bg-gray-800 dark:text-white dark:border-gray-600 dark:hover:bg-gray-700 dark:hover:border-gray-600 dark:focus:ring-gray-700"
+                        className="text-gray-900 bg-white border border-gray-300 focus:outline-none hover:bg-gray-100 focus:ring-4 focus:ring-gray-100 font-medium rounded-full text-sm px-5 py-2.5 me-2 mb-2 dark:bg-gray-400 dark:text-white dark:border-gray-600 dark:hover:bg-gray-300 dark:hover:border-gray-600 dark:focus:ring-gray-700"
                         aria-label="Close tutorial modal"
                     >
                         <X />

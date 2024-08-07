@@ -23,6 +23,7 @@
     "react-dom": "^18",
     "react-lucid": "^0.0.1",
     "react-markdown": "^9.0.1",
+    "react-wrap-balancer": "^1.1.1",
     "remark-gfm": "^4.0.0",
     "sass": "^1.77.8"
   },

@@ -92,10 +92,11 @@ export default function GenerateText() {
             value={topic}
             onChange={(e) => setTopic(e.target.value)}
             placeholder="Advanced course on Transformers"
+            className="dark:text-black"
             required
           />
           <div className="button">
-            <button className="button1" type="submit">Search</button>
+            <button className="button1" type="submit" disabled={loading}>Search</button>
           </div>
         </form>
       </div>
