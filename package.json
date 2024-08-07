@@ -10,11 +10,20 @@
   },
   "dependencies": {
     "@google/generative-ai": "^0.16.0",
+    "cors": "^2.8.5",
+    "dotenv": "^16.4.5",
+    "express": "^4.19.2",
+    "focus-trap-react": "^10.2.3",
+    "framer-motion": "^11.3.21",
+    "lucide-react": "^0.424.0",
     "next": "14.2.5",
     "node-fetch": "^3.3.2",
     "node-sass": "^9.0.0",
     "react": "^18",
     "react-dom": "^18",
+    "react-lucid": "^0.0.1",
+    "react-markdown": "^9.0.1",
+    "remark-gfm": "^4.0.0",
     "sass": "^1.77.8"
   },
   "devDependencies": {

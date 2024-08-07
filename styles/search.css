@@ -138,15 +138,35 @@ body {
   margin: 3px 5px;
 }
 
-.search button:active {
+.button1:active {
   margin: 8px 5px;
 }
+
 
 .search .button {
   margin: 0.5em auto;
   width: 16%;
 }
 
-.search .button button {
-  float: left;
+/* Styling the entire scrollbar */
+body::-webkit-scrollbar {
+  width: 12px; /* Width of the scrollbar */
+  height: 12px; /* Height of the scrollbar (for horizontal scrollbar) */
+}
+
+/* Styling the track (part the scrollbar moves along) */
+body::-webkit-scrollbar-track {
+  background: #f1f1f1; /* Track color */
+  border-radius: 10px; /* Rounded corners for the track */
+}
+
+/* Styling the thumb (the draggable part of the scrollbar) */
+body::-webkit-scrollbar-thumb {
+  background: #7cedc5; /* Thumb color */
+  border-radius: 10px; /* Rounded corners for the thumb */
+}
+
+/* Styling the thumb on hover */
+body::-webkit-scrollbar-thumb:hover {
+  background: #60c7a3; /* Darker color when hovering */
 }
