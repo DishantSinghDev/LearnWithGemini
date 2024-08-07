@@ -16,6 +16,7 @@ app.use(express.json());
 
 app.post("/", async (req, res) => {
     const { prompt, apiKey } = req.body;
+    console.log(prompt, apiKey)
 
     if (!prompt) {
         return res.status(404).json({ error: "Prompt is required" });
