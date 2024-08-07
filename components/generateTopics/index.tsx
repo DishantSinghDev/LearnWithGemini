@@ -73,7 +73,7 @@ export default function GenerateText() {
         setError("Rate limit exceeded. Please try again later or request a quota increase.");
         break;
       case 500:
-        setError("Internal server error. Please wait and try again. If the issue persists, report it to Google AI Studio.");
+        setError("Internal server error. Please wait and try again. If the issue persists, report it to Developer.");
         break;
       case 503:
         setError("Service unavailable. The service may be temporarily overloaded or down. Please try again later.");

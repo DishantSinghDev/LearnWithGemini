@@ -15,6 +15,9 @@ export default function Home() {
         Learn With Gemini
       </div>
       <GenerateText />
+      <footer>
+        
+      </footer>
     </>
 
   );
